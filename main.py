@@ -38,7 +38,7 @@ result = cv2.drawContours(imageCv.copy(), [plateContour], -1, plateBackgroundCol
 
 plateblurimage1 = str(uuid.uuid4())
 plateblurimage2 = ".jpg"
-plateblurimagefilename = " ".join((plateblurimage1, plateblurimage2))
+plateblurimagefilename = "".join((plateblurimage1, plateblurimage2))
 cv2.imwrite('./modifiedimage/'+plateblurimagefilename, result)
 print("blurred via python: <img src='modifiedimage/"+plateblurimagefilename+"' width='50%'>")
 
