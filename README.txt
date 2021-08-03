@@ -3,6 +3,7 @@
 ###################################################
 
 REQUIRED INSTALL PYTHON
+can now be viewed in browser
 
 #TERMINAL
 ###################################################
